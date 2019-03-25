@@ -1,0 +1,13 @@
+[visualization]
+export = true
+export_interval = 1
+
+    [[visualize_sim_object]]
+    name = "MyCell"
+    additional_data_members = ["volume_","cell_T_","cell_C_"]
+
+     [[visualize_diffusion]]
+     name = "Kalium"
+     leaking_edges_ = false
+     bound_space_ = true
+     gradient_= true

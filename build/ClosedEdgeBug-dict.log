@@ -1,0 +1,82 @@
+Warning in cling::IncrementalParser::CheckABICompatibility():
+  Possible C++ standard library mismatch, compiled with __GLIBCXX__ '20180415'
+  Extraction of runtime standard library version was: '20180720'
+Selected class -> std::tuple<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Soa>, bdm::Capsule<MyCellExt> > > for ROOT: tuple<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Soa>,bdm::Capsule<bdm::MyCellExt> > >
+Selected class -> std::vector<bdm::Param::VisualizeDiffusion, std::allocator<bdm::Param::VisualizeDiffusion> > for ROOT: vector<bdm::Param::VisualizeDiffusion>
+Selected class -> std::vector<bdm::Random *, std::allocator<bdm::Random *> > for ROOT: vector<bdm::Random*>
+Selected class -> std::vector<bdm::SoHandle, std::allocator<bdm::SoHandle> > for ROOT: vector<bdm::SoHandle>
+Selected class -> std::vector<bdm::Variant<bdm::GrowthModule, bdm::KaliumSecretion>, std::allocator<bdm::Variant<bdm::GrowthModule, bdm::KaliumSecretion> > > for ROOT: vector<bdm::Variant<bdm::GrowthModule,bdm::KaliumSecretion> >
+Selected class -> std::vector<bdm::Grid<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >::Box, std::allocator<bdm::Grid<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >::Box> > for ROOT: vector<bdm::Grid<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >::Box>
+Selected class -> bdm::TransactionalVector<int> for ROOT: bdm::TransactionalVector<int>
+Selected class -> bdm::OneElementArray<std::vector<bdm::Variant<bdm::GrowthModule, bdm::KaliumSecretion>, std::allocator<bdm::Variant<bdm::GrowthModule, bdm::KaliumSecretion> > > > for ROOT: bdm::OneElementArray<vector<bdm::Variant<bdm::GrowthModule,bdm::KaliumSecretion> > >
+Selected class -> bdm::OneElementArray<std::array<double, 3> > for ROOT: bdm::OneElementArray<array<double,3> >
+Selected class -> bdm::OneElementArray<double> for ROOT: bdm::OneElementArray<double>
+Selected class -> bdm::OneElementArray<unsigned int> for ROOT: bdm::OneElementArray<unsigned int>
+Selected class -> bdm::type_ternary_operator<true, bdm::ScalarSimulationObject<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> >, bdm::SoaSimulationObject<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> > > for ROOT: bdm::type_ternary_operator<true,bdm::ScalarSimulationObject<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >,bdm::SoaSimulationObject<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> > >
+Selected class -> bdm::type_ternary_operator<false, bdm::ScalarSimulationObject<bdm::CompileTimeParam<bdm::Soa>, bdm::Capsule<MyCellExt> >, bdm::SoaSimulationObject<bdm::CompileTimeParam<bdm::Soa>, bdm::Capsule<MyCellExt> > > for ROOT: bdm::type_ternary_operator<false,bdm::ScalarSimulationObject<bdm::CompileTimeParam<bdm::Soa>,bdm::Capsule<bdm::MyCellExt> >,bdm::SoaSimulationObject<bdm::CompileTimeParam<bdm::Soa>,bdm::Capsule<bdm::MyCellExt> > >
+Selected class -> bdm::type_ternary_operator<false, std::recursive_mutex &, std::recursive_mutex> for ROOT: bdm::type_ternary_operator<false,recursive_mutex&,recursive_mutex>
+Selected class -> bdm::type_ternary_operator<false, std::vector<unsigned long, std::allocator<unsigned long> > &, std::vector<unsigned long, std::allocator<unsigned long> > > for ROOT: bdm::type_ternary_operator<false,vector<unsigned long>&,vector<unsigned long> >
+Selected class -> bdm::type_ternary_operator<false, unsigned long &, unsigned long> for ROOT: bdm::type_ternary_operator<false,unsigned long&,unsigned long>
+Selected class -> bdm::type_ternary_operator<true, std::recursive_mutex &, std::recursive_mutex> for ROOT: bdm::type_ternary_operator<true,recursive_mutex&,recursive_mutex>
+Selected class -> bdm::type_ternary_operator<true, std::vector<unsigned long, std::allocator<unsigned long> > &, std::vector<unsigned long, std::allocator<unsigned long> > > for ROOT: bdm::type_ternary_operator<true,vector<unsigned long>&,vector<unsigned long> >
+Selected class -> bdm::type_ternary_operator<true, unsigned long &, unsigned long> for ROOT: bdm::type_ternary_operator<true,unsigned long&,unsigned long>
+Selected class -> bdm::is_soa<bdm::Soa> for ROOT: bdm::is_soa<bdm::Soa>
+Selected class -> bdm::detail::GetIndexImpl<bdm::Variant<bdm::GrowthModule, bdm::KaliumSecretion>, 0, bdm::GrowthModule, bdm::KaliumSecretion> for ROOT: bdm::detail::GetIndexImpl<bdm::Variant<bdm::GrowthModule,bdm::KaliumSecretion>,0,bdm::GrowthModule,bdm::KaliumSecretion>
+Selected class -> bdm::detail::GetIndexImpl<bdm::Variant<bdm::GrowthModule, bdm::KaliumSecretion>, 1, bdm::KaliumSecretion> for ROOT: bdm::detail::GetIndexImpl<bdm::Variant<bdm::GrowthModule,bdm::KaliumSecretion>,1,bdm::KaliumSecretion>
+Selected class -> bdm::detail::GetIndexImpl<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> >, 0, bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> > > for ROOT: bdm::detail::GetIndexImpl<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >,0,bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> > >
+Selected class -> bdm::detail::GetIndexImpl<bdm::KaliumSecretion, 0, bdm::GrowthModule, bdm::KaliumSecretion> for ROOT: bdm::detail::GetIndexImpl<bdm::KaliumSecretion,0,bdm::GrowthModule,bdm::KaliumSecretion>
+Selected class -> bdm::detail::GetIndexImpl<bdm::KaliumSecretion, 1, bdm::KaliumSecretion> for ROOT: bdm::detail::GetIndexImpl<bdm::KaliumSecretion,1,bdm::KaliumSecretion>
+Selected class -> bdm::ResourceManager<bdm::CompileTimeParam<bdm::Soa> > for ROOT: bdm::ResourceManager<bdm::CompileTimeParam<bdm::Soa> >
+Selected class -> bdm::Grid<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > > for ROOT: bdm::Grid<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >
+Selected class -> bdm::Scheduler<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > > for ROOT: bdm::Scheduler<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >
+Selected class -> bdm::CompileTimeParam<bdm::Soa> for ROOT: bdm::CompileTimeParam<bdm::Soa>
+Selected class -> bdm::CompileTimeParam<bdm::Soa>::CTMap<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> >, 0> for ROOT: bdm::CompileTimeParam<bdm::Soa>::CTMap<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >,0>
+Selected class -> bdm::CompileTimeParam<bdm::Soa>::Param for ROOT: bdm::CompileTimeParam<bdm::Soa>::Param
+Selected class -> bdm::CompileTimeParam<bdm::Scalar> for ROOT: bdm::CompileTimeParam<bdm::Scalar>
+Selected class -> bdm::CompileTimeParam<bdm::Scalar>::CTMap<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> >, 0> for ROOT: bdm::CompileTimeParam<bdm::Scalar>::CTMap<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >,0>
+Selected class -> bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > for ROOT: bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> >
+Selected class -> bdm::InlineVector<bdm::SoHandle, 4> for ROOT: bdm::InlineVector<bdm::SoHandle,4>
+Selected class -> bdm::InlineVector<std::array<double, 3>, 4> for ROOT: bdm::InlineVector<array<double,3>,4>
+Selected class -> bdm::CTList<bdm::GrowthModule, bdm::KaliumSecretion> for ROOT: bdm::CTList<bdm::GrowthModule,bdm::KaliumSecretion>
+Selected class -> bdm::detail::ConvertToContainerTuple<bdm::Soa, bdm::CTList<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> > > > for ROOT: bdm::detail::ConvertToContainerTuple<bdm::Soa,bdm::CTList<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> > > >
+Selected class -> bdm::detail::ToIndex<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> >, bdm::CTList<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> > > > for ROOT: bdm::detail::ToIndex<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >,bdm::CTList<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> > > >
+Selected class -> bdm::ConvertToContainerTuple<bdm::Soa, bdm::CTList<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> > > > for ROOT: bdm::ConvertToContainerTuple<bdm::Soa,bdm::CTList<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> > > >
+Selected class -> bdm::ScalarSimulationObject<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> > for ROOT: bdm::ScalarSimulationObject<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >
+Selected class -> bdm::SoaSimulationObject<bdm::CompileTimeParam<bdm::Soa>, bdm::Capsule<MyCellExt> > for ROOT: bdm::SoaSimulationObject<bdm::CompileTimeParam<bdm::Soa>,bdm::Capsule<bdm::MyCellExt> >
+Selected class -> bdm::SimulationObjectImpl<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> > for ROOT: bdm::SimulationObjectImpl<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >
+Selected class -> bdm::SimulationObjectImpl<bdm::CompileTimeParam<bdm::Soa>, bdm::Capsule<MyCellExt> > for ROOT: bdm::SimulationObjectImpl<bdm::CompileTimeParam<bdm::Soa>,bdm::Capsule<bdm::MyCellExt> >
+Selected class -> bdm::SimulationObjectExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> > for ROOT: bdm::SimulationObjectExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >
+Selected class -> bdm::SimulationObjectExt<bdm::CompileTimeParam<bdm::Soa>, bdm::Capsule<MyCellExt> > for ROOT: bdm::SimulationObjectExt<bdm::CompileTimeParam<bdm::Soa>,bdm::Capsule<bdm::MyCellExt> >
+Selected class -> bdm::CellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> > for ROOT: bdm::CellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >
+Selected class -> bdm::CellExt<bdm::CompileTimeParam<bdm::Soa>, bdm::Capsule<MyCellExt> > for ROOT: bdm::CellExt<bdm::CompileTimeParam<bdm::Soa>,bdm::Capsule<bdm::MyCellExt> >
+Selected class -> bdm::Capsule<CellExt> for ROOT: bdm::Capsule<bdm::CellExt>
+Selected class -> bdm::DefaultCTParam<bdm::Soa> for ROOT: bdm::DefaultCTParam<bdm::Soa>
+Selected class -> bdm::DefaultCTParam<bdm::Soa>::CTMap<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> >, 0> for ROOT: bdm::DefaultCTParam<bdm::Soa>::CTMap<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >,0>
+Selected class -> bdm::DefaultCTParam<bdm::Scalar> for ROOT: bdm::DefaultCTParam<bdm::Scalar>
+Selected class -> bdm::DefaultCTParam<bdm::Scalar>::CTMap<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> >, 0> for ROOT: bdm::DefaultCTParam<bdm::Scalar>::CTMap<bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >,0>
+Selected class -> bdm::FixedSizeVector<unsigned long, 14> for ROOT: bdm::FixedSizeVector<unsigned long,14>
+Selected class -> bdm::FixedSizeVector<const bdm::Grid<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >::Box *, 27> for ROOT: bdm::FixedSizeVector<const bdm::Grid<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >::Box*,27>
+Selected class -> bdm::ParallelResizeVector<bdm::Grid<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >::Box> for ROOT: bdm::ParallelResizeVector<bdm::Grid<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >::Box>
+Selected class -> bdm::CircularBuffer<bdm::InlineVector<bdm::SoHandle, 4>, 14> for ROOT: bdm::CircularBuffer<bdm::InlineVector<bdm::SoHandle,4>,14>
+Selected class -> bdm::CircularBuffer<bdm::InlineVector<std::array<double, 3>, 4>, 14> for ROOT: bdm::CircularBuffer<bdm::InlineVector<array<double,3>,4>,14>
+Selected class -> bdm::DisplacementOpCpu<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > > for ROOT: bdm::DisplacementOpCpu<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >
+Selected class -> bdm::DisplacementOp<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > > for ROOT: bdm::DisplacementOp<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >
+Selected class -> bdm::OpTimer<bdm::CommitOp> for ROOT: bdm::OpTimer<bdm::CommitOp>
+Selected class -> bdm::OpTimer<bdm::BiologyModuleOp> for ROOT: bdm::OpTimer<bdm::BiologyModuleOp>
+Selected class -> bdm::OpTimer<bdm::BoundSpace> for ROOT: bdm::OpTimer<bdm::BoundSpace>
+Selected class -> bdm::OpTimer<bdm::DisplacementOp<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > > > for ROOT: bdm::OpTimer<bdm::DisplacementOp<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > > >
+Selected class -> bdm::CatalystAdaptor<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > > for ROOT: bdm::CatalystAdaptor<bdm::Simulation<bdm::CompileTimeParam<bdm::Soa> > >
+Selected class -> bdm::KaliumSecretion for ROOT: bdm::KaWarning: Unused class rule: bdm::resource_manager_test_internal::*
+Warning: Unused class rule: std::__1::tuple<bdm::*<*>
+Warning: Unused class rule: std::__1::vector<bdm::*<*>>
+Warning: Unused class rule: bdm::Chemotaxis
+Warning: Unused class rule: bdm::SubstanceSecretion
+Warning: Unused class rule: bdm::DivisionAndMovementModule,
+Warning: Unused class rule: bdm::Neurite
+Warning: Unused class rule: bdm::*Behaviour
+Warning: Unused class rule: bdm::*BM
+liumSecretion
+Selected class -> bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>, bdm::Capsule<MyCellExt> > for ROOT: bdm::MyCellExt<bdm::CompileTimeParam<bdm::Scalar>,bdm::Capsule<bdm::MyCellExt> >
+Selected class -> bdm::MyCellExt<bdm::CompileTimeParam<bdm::Soa>, bdm::Capsule<MyCellExt> > for ROOT: bdm::MyCellExt<bdm::CompileTimeParam<bdm::Soa>,bdm::Capsule<bdm::MyCellExt> >
+Selected class -> bdm::Capsule<MyCellExt> for ROOT: bdm::Capsule<bdm::MyCellExt>
+Selected class -> bdm::GrowthModule for ROOT: bdm::GrowthModule

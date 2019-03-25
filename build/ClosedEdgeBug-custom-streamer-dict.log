@@ -1,0 +1,7 @@
+Warning in cling::IncrementalParser::CheckABICompatibility():
+  Possible C++ standard library mismatch, compiled with __GLIBCXX__ '20180415'
+  Extraction of runtime standard library version was: '20180720'
+Warning: Unused class rule: std::__1::vector<bdm::SoPointer<*>>
+Warning: Unused class rule: bdm::SoPointer<*>
+Warning: Unused class rule: std::__1::vector<bdm::Variant<*>>
+Selected class -> bdm::Variant<bdm::GrowthModule, bdm::KaliumSecretion> for ROOT: bdm::Variant<bdm::GrowthModule,bdm::KaliumSecretion>
